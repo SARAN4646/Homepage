@@ -1,0 +1,92 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  
+  box-sizing: border-box;
+}
+body{
+  font-family: "Montserrat", sans-serif;
+}
+.header-wrapper {
+  display: flex;         
+  align-items:center;   
+  gap: 0;                
+}
+.header-wrapper img {
+  width: 40px;
+  height: auto;
+  
+}
+.header-wrapper h4 {
+  font-size: 32px;
+  color: black;
+  margin:0px opx; 
+            
+}
+
+a{
+  text-decoration: none;
+}
+.container
+{
+  width:80%;
+  margin: 0px auto;
+}
+header
+{
+  background-color:purple;
+}
+.header-wrapper
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  color: white;
+  
+}
+.header-wrapper nav 
+{
+  display: flex;
+  gap: 30px;
+}
+.header-wrapper nav a{
+  color:white;
+  /* margin-right: 25px; */
+}
+/* .header-wrapper nav a:last-child
+{
+  margin:0px;
+} */
+ .banner-wrapper
+ {
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+ }
+ .banner-wrapper h1{
+  font-size: 48px;
+  font-weight:600;
+ }
+.banner-wrapper p
+{
+  margin: 30px 0px;
+  color: 50505px;
+  line-height: 20px;
+
+}
+.banner-wrapper div a {
+  background-color:sandybrown;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 15px;  
+}
+.banner-wrapper div img
+{
+  width: 400px;  
+  height: auto;
+}
+
+ 
